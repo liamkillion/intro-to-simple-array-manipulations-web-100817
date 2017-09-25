@@ -18,12 +18,12 @@ def using_shift(array)
   array.shift
 end
 
-def shift_with_arg(array)
+def shift_with_args(array)
   array.shift(2)
 end
 
 def using_concat(array1,array2)
-  array.concat(array)
+  array1.concat(array2)
 end
 #using_insert takes in two arguments, an array and a new element to be added to the array. it uses the insert method to add the new element to the 4th index of the array
 def using_insert(array,element)
